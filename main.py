@@ -110,7 +110,7 @@ def add_team():
             print("team added successfully.\n")
 
         except sqlite3.IntegrityError as e:
-            print("database constaint violation error:", e)
+            print("database constraint violation error:", e)
 
 
 def add_player():
